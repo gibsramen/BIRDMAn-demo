@@ -12,3 +12,4 @@ dependencies:
   - patsy
   - dask
   - biom-format
+  - seaborn
