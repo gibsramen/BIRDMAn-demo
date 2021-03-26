@@ -1,3 +1,5 @@
 *.swo
 *.swp
+*.hpp
 .ipynb_checkpoints/
+models/negative_binomial_lme
