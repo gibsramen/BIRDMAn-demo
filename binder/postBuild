@@ -2,6 +2,5 @@
 
 set -e
 
-pip install birdman==0.0.1
-python -c "import cmdstanpy; cmdstanpy.install_cmdstan(version='2.25.0')"
+pip install birdman==0.1.0
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace notebooks/*.ipynb
